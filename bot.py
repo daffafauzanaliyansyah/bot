@@ -4,7 +4,8 @@ import re
 import asyncio
 import time
 
-TOKEN = "8626079007:AAF82ef6HmROrECCsnvA1XCH0xIbAQMO6Js"
+import os
+TOKEN = os.getenv("TOKEN")
 
 warnings = {}
 last_link_time = {}
